@@ -5,7 +5,7 @@ import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import PetsRoundedIcon from '@mui/icons-material/PetsRounded';
 import Footer from '../Footer'
 import {useNavigate} from 'react-router-dom'
-import GoogleAuthentication from '../GoogleAuthentication/googleAuthentication';
+
 
 
 function Login() {
@@ -60,7 +60,6 @@ function Login() {
                 </form>
                 <a  href='/' style={{textDecoration:'none', color:'#fdb44b', margin:'15px', fontWeight:'bold', fontSize:'14px'}}>¿Olvidó su contraseña?</a>
             </div>
-            <GoogleAuthentication/>
         </Container>
       </Grid>
       <Footer/>
