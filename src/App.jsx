@@ -8,12 +8,13 @@ import Login from './components/Login'
 const App = () => {
   return (
     <BrowserRouter>
-    <Suspense>
-      <Routes>
-      {/* <Route path='/' name='index'element={<Principal_Index/>} /> */}
-      <Route path='/' name='login' element={<Login/>} />
-      </Routes>
-    </Suspense>
+      <Suspense fallback={<p>Loading...</p>}>
+        <Routes>
+          {/* <Route path='/' name='index'element={<Principal_Index/>} /> */}
+          <Route path='/' name='login'element={<Login/>} />
+          {/* <Route path='/login' name='login' element={<Login/>} /> */}
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   )
 }
