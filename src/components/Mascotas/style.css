@@ -1,0 +1,141 @@
+
+.cardsFlexMascotas{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 7rem;
+    /* overflow-x: auto; */
+}
+
+.cardBoxMascota{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:0.7rem;
+    z-index: 0;
+    margin-left: 1.5rem;
+    max-height: fit-content;
+    
+}
+
+.error-message {
+    color: red;
+    font-size: 0.6rem;
+    }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-right: 2rem;
+}
+.formulario label{
+    font-size: 0.7rem;
+    font-weight: 550;
+    margin: 2px 2px 2px 2px;
+    color: #737373;
+
+}
+
+.inputPrueba{
+    border-radius: 0.2rem;
+    border:  2px solid #D2D2D2;
+    height: 1.7rem;
+    width: 180px;
+    font-size: 0.7rem;
+}
+.inputPrueba:focus{
+    outline-color: #bf92f4;
+}
+
+.btnAccion{
+    font-size: 0.8rem;
+    color: #fff;
+    width: 15%;
+    height: 2.5rem;
+    background-color: #8C30F5;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight:bolder;
+    margin: 0.5rem 1rem 0 1rem;
+}
+.btnAccion:hover{
+    background-color: #451086;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+.photo label{
+    font-size: 0.7rem;
+    font-weight: 550;
+    margin: 2px 2px 2px 2px;
+    color: #737373;
+    padding-left: 2.8rem;
+
+}
+
+@media only screen and (max-width:860px){
+    .cardsFlexMascotas{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        overflow-x: auto;
+        
+    }
+    .cardBoxMascota{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap:0.7rem;
+        z-index: 0;
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
+        max-height: fit-content;
+        
+    }
+    ::-webkit-scrollbar {
+        display:none;
+        
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:360px){
+    .photo label{
+        font-size: 0.7rem;
+        font-weight: 550;
+        margin: 2px 2px 2px 2px;
+        color: #737373;
+        padding-left: 0;
+    
+    }
+    .formulario{
+        
+        padding-right: 0;
+    }
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-right: 2rem;
+}
+

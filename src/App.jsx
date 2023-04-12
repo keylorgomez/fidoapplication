@@ -6,6 +6,7 @@ import Login from './components/Login'
 import CrearRegistroRapido from './components/RegistroRapido/crearRegistroRapido'
 import Registered_index from './components/Principal_Index/registered_index'
 import PerfilUsuario from './components/Perfil/perfilUsuario'
+import Mascotas from './components/Mascotas'
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='/registrar' name='registrar' element={<CrearRegistroRapido/>}/>
           <Route path='/app' name='logged-index' element={<Registered_index/>} />
           <Route path='/perfil-usuario' name='perfil' element={<PerfilUsuario/>}/>
+          <Route path='/pets' name='pets' element={<Mascotas/>}/>
         </Routes>
       </Suspense>
     </BrowserRouter>
