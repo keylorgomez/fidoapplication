@@ -19,7 +19,7 @@ function Login() {
     const onSubmit=()=>{
         console.log(email)
         console.log(password)
-        navigate('/')
+        navigate('/app')
       }
 
   return (
