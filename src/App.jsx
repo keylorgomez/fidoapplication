@@ -12,6 +12,8 @@ import PerfilNegocio from './components/Perfil/perfilNegocio'
 import ServiciosNegocio from './components/Servicios'
 import ReservasNegocio from './components/Reservaciones/reservasNegocio'
 import GestionPromociones from './components/GestionPromociones/GestionPromociones'
+import ClientsList from './components/Administration/clientsList'
+import BusinessList from './components/Administration/businessList'
 
 
 
@@ -31,6 +33,8 @@ const App = () => {
           <Route path='/servicios-negocio' name='servicios' element={<ServiciosNegocio/>}/>
           <Route path='/reservas-negocio' name='reservas-negocios' element={<ReservasNegocio/>}/>
           <Route path='/promocion-noticias' name='promocion-noticias' element={<GestionPromociones/>}/>
+          <Route path='/clientes-asociados' name='reservas-asociado-cliente' element={<ClientsList/>}/>
+          <Route path='/negocios-asociados' name='reservas-asociado-negocio' element={<BusinessList/>}/>
         </Routes>
       </Suspense>
     </BrowserRouter>
