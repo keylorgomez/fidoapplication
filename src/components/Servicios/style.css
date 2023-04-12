@@ -1,0 +1,131 @@
+.servicios{
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tblData td{
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+.tblData td button{
+    font-size: 0.6rem;
+    text-align: center;
+    height: 2rem;
+    width: 2.5rem;
+    margin: 0.1rem;
+}
+
+
+
+.tblData th{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.tblData{
+    max-width: 700px;
+    border-radius: 2rem;
+}
+.ContainerTable{
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 1.5rem;
+}
+
+.Avatar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Avatar label{
+    font-size: 0.8rem;
+    font-weight: 550;
+    color: #737373;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form label{
+    font-size: 0.8rem;
+    font-weight: 550;
+    color: #737373;
+    margin: 0.5rem 0rem;
+}
+
+.inputServicios{
+    border-radius: 0.2rem;
+    border:  2px solid #D2D2D2;
+    height: 2.3rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: #737373;
+}
+.inputServicios:focus{
+    outline-color: #bf92f4;
+}
+
+.button{
+    margin: 0.5rem 0;
+    color: #fff;
+    height: 2.3rem;
+    background-color: #8C30F5;
+    border-radius: 0.3rem;
+    border: none;
+    width: 100%;
+}
+
+.button:hover{
+    background-color: #451086;
+}
+
+.contenedorTbl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.contenedorTbl::-webkit-scrollbar {
+    width: 5px;
+}
+
+.contenedorTbl::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+.contenedorTbl::-webkit-scrollbar-thumb {
+    background-color: #D2D2D2;
+    border-radius: 5px;
+}
+@media only screen and (max-width:374px){
+    .tblData td{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .tblData th{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .tblData td button{
+        font-size: 0.5rem;
+        text-align: center;
+        height: 2rem;
+        width: 2rem;
+        margin: 0.1rem;
+        padding: 0;
+    }
+}
