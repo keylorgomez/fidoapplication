@@ -1,0 +1,151 @@
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.ReservationTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.PrincipalContainerReserv1{
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrincipalContainerReserv2{
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrincipalContainerReserv1 label{
+    font-size: 0.8rem;
+    font-weight: 550;
+    color: #737373;
+    margin: 0 1rem;
+}
+
+.PrincipalContainerReserv1 input:focus{
+    outline-color: #bf92f4;
+}
+
+.PrincipalContainerReserv1 input{
+    border-radius: 0.2rem;
+    border:  2px solid #D2D2D2;
+    height: 2.3rem;
+    font-size: 0.8rem;
+    color: #737373;
+}
+
+.tblServices th{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.tblServices td{
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.PrincipalContainerReserv2 label{
+    font-size: 0.8rem;
+    font-weight: 550;
+    color: #737373;
+    margin: 0rem 1rem;
+    padding: 0rem 0rem 1rem 0rem;
+}
+.PrincipalContainerReserv2 input,select{
+    border-radius: 0.2rem;
+    border:  2px solid #D2D2D2;
+    font-size: 0.6rem;
+    color: #737373;
+    min-width: 20px;
+    margin: 0.3rem 0.2rem;
+}
+.PrincipalContainerReserv2 select{
+    height: 2.3rem;
+}
+
+textarea{
+    border-radius: 0.2rem;
+    border:  2px solid #D2D2D2;
+    font-size: 0.6rem;
+    color: #737373;
+    width: 100px;
+    height: 3rem;
+}
+
+textarea:focus{
+    outline-color: #bf92f4;
+}
+
+.PrincipalContainerReserv2 input,select:focus{
+    outline-color: #bf92f4;
+}
+
+.btnAdd{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+.btnAdd button{
+    height: 2.2rem;
+    width: 5rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #8C30F5;
+    border:none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.botonesServ{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.botonesServ button{
+    width: 100px;
+    margin: 0rem 1rem 5rem 1rem;
+    height: 2.3rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    border: none;
+    color: #8C30F5;
+    background-color: 
+    #F1E4FF;
+}
+
+.btnDelete{
+    color: #fff;
+    border: none;
+    margin-left: 0.5rem;
+    background-color: #B02A37;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.3rem;
+}
+
+@media only screen and (max-width:390px){
+    .PrincipalContainerReserv2 label{
+        font-size: 0.6rem;
+    }
+    .tblServices th{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .PrincipalContainerReserv1 label{
+        font-size: 0.7rem;
+    }
+
+    .PrincipalContainerReserv1 input{
+        max-width: 150px;
+    }
+
+}
