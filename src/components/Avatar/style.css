@@ -1,0 +1,33 @@
+.AvatarIcon{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.8rem;
+}
+.AvatarIcon button{
+    font-size: 0.8rem;
+    color: #8C30F5;
+    width: 50%;
+    height: 2.5rem;
+    background-color: #F1E4FF;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight:bolder;
+    margin-left: 25%;
+}
+.AvatarIcon button:hover{
+    background-color: #d8cbe9;
+}
+
+.avatarInput{
+    font-size: 0.6rem;
+    color: #8C30F5;
+}
+
+@media only screen and (max-width:360px){
+    .AvatarIcon{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+}

@@ -5,6 +5,7 @@ import Principal_Index  from './components/Principal_Index'
 import Login from './components/Login'
 import CrearRegistroRapido from './components/RegistroRapido/crearRegistroRapido'
 import Registered_index from './components/Principal_Index/registered_index'
+import PerfilUsuario from './components/Perfil/perfilUsuario'
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/login' name='login' element={<Login/>} />
           <Route path='/registrar' name='registrar' element={<CrearRegistroRapido/>}/>
           <Route path='/app' name='logged-index' element={<Registered_index/>} />
+          <Route path='/perfil-usuario' name='perfil' element={<PerfilUsuario/>}/>
         </Routes>
       </Suspense>
     </BrowserRouter>
