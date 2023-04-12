@@ -10,6 +10,7 @@ import Mascotas from './components/Mascotas'
 import ReservasUsuario from './components/Reservaciones/reservasUsuario'
 import PerfilNegocio from './components/Perfil/perfilNegocio'
 import ServiciosNegocio from './components/Servicios'
+import ReservasNegocio from './components/Reservaciones/reservasNegocio'
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
           <Route path='/reservas-usuario' name='reservas-usuarios' element={<ReservasUsuario/>}/>
           <Route path='/perfil-negocio' name='perfil-negocio' element={<PerfilNegocio/>}/>
           <Route path='/servicios-negocio' name='servicios' element={<ServiciosNegocio/>}/>
+          <Route path='/reservas-negocio' name='reservas-negocios' element={<ReservasNegocio/>}/>
         </Routes>
       </Suspense>
     </BrowserRouter>
