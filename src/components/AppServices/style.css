@@ -1,0 +1,32 @@
+.primaryContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 4rem;
+}
+.AppServices{
+    padding: 5px 0 10px 10px;
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.buttonServices{
+    color:#8C30F5
+}
+.buttonServices:hover{
+    border: 1.5px solid #8C30F5;
+    background-color: #F1E4FF;
+    color: #8C30F5;
+}
+.buttonServices:focus{
+    outline: none;
+    border: 1.5px solid #8C30F5;
+    background-color: #F1E4FF;
+    color: #8C30F5;
+    box-shadow: none;
+    animation: none;
+}

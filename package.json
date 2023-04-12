@@ -16,9 +16,12 @@
     "@mui/styled-engine": "^5.11.11",
     "npm": "^9.6.0",
     "react": "^18.2.0",
+    "react-datepicker": "^4.10.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "formik": "^2.2.9",
+    "swiper": "^9.1.0",
+    "styled-components": "^5.3.8",
     "yup": "^1.0.2"
   },
   "devDependencies": {

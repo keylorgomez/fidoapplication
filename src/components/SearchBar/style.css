@@ -1,0 +1,242 @@
+.buscadorContainer{
+    background-color: #EBEBEB;
+    border-radius: 2rem;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1.2rem 0 1rem 0;
+    gap: 0.5rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.divBucador{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #D9D9D9;
+    padding: 0 0.75rem;
+    margin: 0.5rem 0;
+}
+.divBucador2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.3rem;
+
+}
+
+
+.encabezados{
+    font-size: 0.9rem;
+    margin: 3px 0;
+}
+
+.input{
+    font-size: 0.8rem !important;
+    width: 4rem !important;
+    margin-bottom: 0.3rem !important;
+    text-align: center !important;
+}
+
+.divBucador2 .input{
+    width: 5rem !important;
+}
+.divBoton{
+    background-color: #8C30F5;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 0.8rem;
+}
+.icon{
+    color: #fff !important;
+}
+
+.date-picker {
+    border: 0px none;
+    border-bottom: 1px solid 
+    #888888;
+    font-size: 0.8rem;
+    color: #000 !important;
+    width: 4rem;
+    background-color: #EBEBEB;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+    height: 1.5rem;
+    
+}
+
+.popperPicker{
+    max-width: 98%;
+    z-index: 100;
+}
+
+
+.react-datepicker {
+background-color: #EBEBEB;
+border: 1px solid #DDDDDD;
+border-radius: 2rem;
+}
+
+.react-datepicker__header {
+background-color: #8C30F5;
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+display: flex;
+justify-content: space-evenly;
+}
+.react-datepicker__day,
+.react-datepicker__time-name {
+border-radius: 50%;
+background-color: #ecebed;
+}
+
+.react-datepicker__day:hover {
+background-color: #8C30F5;
+border-radius: 50%;
+color: #000;
+}
+ 
+.react-datepicker__time-list {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width:420px){
+    .buscadorContainer{
+        background-color: #EBEBEB;
+        border-radius: 2rem;
+        border: 1px solid #DDDDDD;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 1.2rem 0 1rem 0;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        gap:0.6rem
+    }
+    .date-picker {
+        border: 0px none;
+        border-bottom: 1px solid 
+        #888888;
+        font-size: 0.6rem;
+        color: #000 !important;
+        width: 3rem;
+        background-color: #EBEBEB;
+        margin-bottom: 0.3rem;
+        cursor: pointer;
+        height: 1rem;
+
+    }
+    .divBucador{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-right: 1px solid #D9D9D9;
+        padding: 0 0.3rem 0 0;
+    }
+    .divBucador2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0.3rem 0 0;
+
+    }
+    .encabezados{
+        font-size: 0.7rem;
+        margin: 1.5px 0;
+    }
+    .divBoton{
+        background-color: #8C30F5;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: 0.8rem;
+    }
+    .input{
+        font-size: 0.6rem !important;
+        width: 3rem !important;
+        margin-bottom: 0.3rem !important;
+        text-align: center !important;
+    }
+    .divBucador2 .input{
+        width: 3.9rem !important;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .buscadorContainer{
+        background-color: #EBEBEB;
+        border-radius: 2rem;
+        border: 1px solid #DDDDDD;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 1.2rem 0 1rem 0;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        gap:0.25rem
+    }
+    .date-picker {
+        border: 0px none;
+        border-bottom: 1px solid 
+        #888888;
+        font-size: 0.6rem;
+        color: #000 !important;
+        width: 3rem;
+        background-color: #EBEBEB;
+        margin-bottom: 0.3rem;
+        cursor: pointer;
+        height: 1rem;
+
+    }
+    .divBucador{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-right: 1px solid #D9D9D9;
+        padding: 0 0.1rem 0 0;
+    }
+    .divBucador2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+
+    }
+    .encabezados{
+        font-size: 0.7rem;
+        margin: 1.5px 0;
+    }
+    .divBoton{
+        background-color: #8C30F5;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: 0.8rem;
+    }
+    .input{
+        font-size: 0.6rem !important;
+        width: 3rem !important;
+        margin-bottom: 0.3rem !important;
+        text-align: center !important;
+    }
+    .divBucador2 .input{
+        width: 3.9rem !important;
+    }
+}

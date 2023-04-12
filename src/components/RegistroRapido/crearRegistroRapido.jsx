@@ -37,7 +37,7 @@ const CrearRegistroRapido = () => {
           </div>
           <div className='divTitulos'>
             <Typography component='h1' variant='h5' style={{fontSize:'2.2rem', height:'40px', fontWeight:'700', color:'#8C30F5',fontFamily:[ 'Source Sans Pro','sans-serif']}}>Crear cuenta</Typography>
-            <p style={{margin:'10px 0px 0px 0px', fontSize:'14px'}}>¿Ya tienes cuenta? <a href='/' path='/login' style={{textDecoration:'none', color:'#fdb44b',fontWeight:'bold'}}>Inicia sesión</a></p>
+            <p style={{margin:'10px 0px 0px 0px', fontSize:'14px'}}>¿Ya tienes cuenta? <a href='/login' path='/login' style={{textDecoration:'none', color:'#fdb44b',fontWeight:'bold'}}>Inicia sesión</a></p>
           </div>
           
           <Formik

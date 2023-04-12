@@ -1,0 +1,12 @@
+.date-time-picker {
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  button[type="submit"],
+  .react-datetime-picker__wrapper {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
