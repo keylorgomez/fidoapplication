@@ -8,6 +8,7 @@ import Registered_index from './components/Principal_Index/registered_index'
 import PerfilUsuario from './components/Perfil/perfilUsuario'
 import Mascotas from './components/Mascotas'
 import ReservasUsuario from './components/Reservaciones/reservasUsuario'
+import PerfilNegocio from './components/Perfil/perfilNegocio'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/perfil-usuario' name='perfil' element={<PerfilUsuario/>}/>
           <Route path='/pets' name='pets' element={<Mascotas/>}/>
           <Route path='/reservas-usuario' name='reservas-usuarios' element={<ReservasUsuario/>}/>
+          <Route path='/perfil-negocio' name='perfil-negocio' element={<PerfilNegocio/>}/>
         </Routes>
       </Suspense>
     </BrowserRouter>
