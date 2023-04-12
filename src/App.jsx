@@ -14,6 +14,7 @@ import ReservasNegocio from './components/Reservaciones/reservasNegocio'
 import GestionPromociones from './components/GestionPromociones/GestionPromociones'
 import ClientsList from './components/Administration/clientsList'
 import BusinessList from './components/Administration/businessList'
+import RegistrarNegocio from './components/RegistrarNegocio/registrarNegocio'
 
 
 
@@ -35,6 +36,7 @@ const App = () => {
           <Route path='/promocion-noticias' name='promocion-noticias' element={<GestionPromociones/>}/>
           <Route path='/clientes-asociados' name='reservas-asociado-cliente' element={<ClientsList/>}/>
           <Route path='/negocios-asociados' name='reservas-asociado-negocio' element={<BusinessList/>}/>
+          <Route path='/registrar-negocio' name='registro-negocio' element={<RegistrarNegocio/>}/>
         </Routes>
       </Suspense>
     </BrowserRouter>
